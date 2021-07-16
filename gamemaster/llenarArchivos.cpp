@@ -9,18 +9,28 @@ void llenarArchivoPaises(){
 	cPais* pais = NULL;
 	cListaT<cPais>* listaPaises = new cListaT<cPais>();
 
-	pais = new cPais("Mexico", "MEXICOOOOOO"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Cuba", "CUBAAAAAAAA"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Colombia", "COLOMBIAAAA"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Venezuela", "VENEZUELAAA"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Argentina", "ARGENTINAAA"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Chile", "CHILEEEEEEE"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Uruguay", "URUGUAYYYYY"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Ecuador", "ECUADORRRRR"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Peru", "PERUUUUUUUU"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Brasil", "BRASILLLLLL"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Bolivia", "BOLIVIAAAAA"); listaPaises->AgregarItem(pais);
-
+	pais = new cPais("Mexico", "MEXICOOOOOO"); listaPaises->AgregarItem(pais); 
+	cout << ((*listaPaises)[0]) << endl;
+	pais = new cPais("Cuba", "CUBAAAAAAAA"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[1]) << endl;
+	pais = new cPais("Colombia", "COLOMBIAAAA"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[2]) << endl;
+	pais = new cPais("Venezuela", "VENEZUELAAA"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[3]) << endl;
+	pais = new cPais("Argentina", "ARGENTINAAA"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[4]) << endl;
+	pais = new cPais("Chile", "CHILEEEEEEE"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[5]) << endl;
+	pais = new cPais("Uruguay", "URUGUAYYYYY"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[6]) << endl;
+	pais = new cPais("Ecuador", "ECUADORRRRR"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[7])->ejercito << endl;
+	pais = new cPais("Peru", "PERUUUUUUUU"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[8])->ejercito << endl;
+	pais = new cPais("Brasil", "BRASILLLLLL"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[9])->ejercito << endl;
+	pais = new cPais("Bolivia", "BOLIVIAAAAA"); listaPaises->AgregarItem(pais); listaPaises->Listar();
+	cout << ((*listaPaises)[10])->ejercito << endl;
 
 
 	(listaPaises->BuscarItem("Mexico"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Cuba"));
@@ -55,7 +65,7 @@ void llenarArchivoPaises(){
 	(listaPaises->BuscarItem("Argentina"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Chile"));
 	(listaPaises->BuscarItem("Argentina"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Uruguay"));
 	(listaPaises->BuscarItem("Argentina"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Brasil"));
-	(listaPaises->BuscarItem("Argentina"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Bolivia"));
+	(listaPaises->BuscarItem("Argentina"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Bolivia")); (listaPaises->BuscarItem("Argentina"))->PaisesVecinos->Listar();
 	(listaPaises->BuscarItem("Chile"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Argentina"));
 	(listaPaises->BuscarItem("Chile"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Bolivia"));
 	(listaPaises->BuscarItem("Chile"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Peru"));

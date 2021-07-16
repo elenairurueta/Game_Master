@@ -36,8 +36,9 @@ void cMapa::poblacionar()
 {
 	mapa = archivoMapa->leerArchivoTxt();
 	listaPaises = archivoListaPaises->leerArchivoDat<cPais>(cantLATINOAMERICA);
-	for(int i = 0; i < listaPaises->getCA(); i++)
+	for (int i = 0; i < listaPaises->getCA(); i++) {
 		(*listaPaises)[i]->inicializarEjercito();
+	}
 }
 
 

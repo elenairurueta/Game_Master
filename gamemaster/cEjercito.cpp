@@ -81,6 +81,8 @@ string cEjercito::toStringParaElMapa()
 
 ostream& operator<<(ostream& out, cEjercito* ejercito)
 {
+	if (ejercito == NULL)
+		out << "";
 	for (int i = 0; i < ejercito->CA; i++)
 	{
 		out << "\n\t\t" << (*ejercito)[i];

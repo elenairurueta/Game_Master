@@ -90,7 +90,13 @@ inline cListaT<T>* Archivo::leerArchivoDat(int cuantos)
 	else {
 		for (int i = 0; i < cuantos; i++) {
 			objeto = new T();
-			lista->AgregarItem(objeto);
+			try {
+				lista->AgregarItem(objeto);
+			}
+			catch (exception* ex) {
+				delete ex;
+				continue;
+			}
 			myfile.read((char*)((*lista)[i]), sizeof(T));
 			//TODO: uno queda vacio y como se repite lanza una excepcion
 		}

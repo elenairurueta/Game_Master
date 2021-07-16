@@ -140,6 +140,8 @@ cTropa* cPais::sacarTropa(int pos)
 
 bool cPais::chequearVecino(cPais* pais)
 {
+	if (pais == NULL)
+		return false;
 	if (this->PaisesVecinos->BuscarItem(pais->getclave()) == NULL)
 		return false;
 	return true;
