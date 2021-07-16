@@ -13,13 +13,14 @@ void llenarArchivoPaises(){
 	pais = new cPais("Cuba", "CUBAAAAAAAA"); listaPaises->AgregarItem(pais);
 	pais = new cPais("Colombia", "COLOMBIAAAA"); listaPaises->AgregarItem(pais);
 	pais = new cPais("Venezuela", "VENEZUELAAA"); listaPaises->AgregarItem(pais);
+	pais = new cPais("Argentina", "ARGENTINAAA"); listaPaises->AgregarItem(pais);
+	pais = new cPais("Chile", "CHILEEEEEEE"); listaPaises->AgregarItem(pais);
+	pais = new cPais("Uruguay", "URUGUAYYYYY"); listaPaises->AgregarItem(pais);
 	pais = new cPais("Ecuador", "ECUADORRRRR"); listaPaises->AgregarItem(pais);
 	pais = new cPais("Peru", "PERUUUUUUUU"); listaPaises->AgregarItem(pais);
 	pais = new cPais("Brasil", "BRASILLLLLL"); listaPaises->AgregarItem(pais);
 	pais = new cPais("Bolivia", "BOLIVIAAAAA"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Argentina", "ARGENTINAAA"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Chile", "CHILEEEEEEE"); listaPaises->AgregarItem(pais);
-	pais = new cPais("Uruguay", "URUGUAYYYYY"); listaPaises->AgregarItem(pais);
+
 
 
 	(listaPaises->BuscarItem("Mexico"))->PaisesVecinos->AgregarItem(listaPaises->BuscarItem("Cuba"));

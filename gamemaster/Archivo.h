@@ -28,7 +28,7 @@ public:
 	template<class T>
 	void escribirArchivoDat(cListaT<T>* lista);
 	template<class T>
-	cListaT<T>* leerArchivoDat();
+	cListaT<T>* leerArchivoDat(int cuantos = -1);
 	string leerArchivoTxt();
 };
 
@@ -40,9 +40,12 @@ inline void Archivo::escribirArchivoDat(cListaT<T>* lista)
 	if (myfile.fail())
 		throw new exception("FILE_ERROR");
 
-	myfile.write((char*)lista, sizeof(cListaT<T>));
+	for(int i = 0; i < lista->getCA(); i++)
+		myfile.write((char*)((*lista)[i]), sizeof(T));
 
 	myfile.close();
+	if(!myfile.good())
+		throw new exception("FILE_ERROR");
 	Log();
 
 //	FILE* fp;
@@ -61,7 +64,7 @@ inline void Archivo::escribirArchivoDat(cListaT<T>* lista)
 }
 
 template<class T>
-inline cListaT<T>* Archivo::leerArchivoDat()
+inline cListaT<T>* Archivo::leerArchivoDat(int cuantos)
 {
 
 	ifstream myfile;
@@ -70,9 +73,28 @@ inline cListaT<T>* Archivo::leerArchivoDat()
 		throw new exception("FILE_ERROR");
 
 	cListaT<T>* lista = new cListaT<T>();
-	//for (unsigned int i = 0; i < lista->getCA(); i++)
-	myfile.read((char*)lista, sizeof(cListaT<T>));
-	
+	int i = 0; T* objeto = NULL;
+
+	if (cuantos == -1) {
+		do {
+			objeto = new T();
+			lista->AgregarItem(objeto);
+
+			myfile.read((char*)((*lista)[i]), sizeof(T));
+			if (myfile.eof())
+				break;
+			i++;
+		} while (true);
+		lista->QuitarenPos(lista->CA - 1);
+	}
+	else {
+		for (int i = 0; i < cuantos; i++) {
+			objeto = new T();
+			lista->AgregarItem(objeto);
+			myfile.read((char*)((*lista)[i]), sizeof(T));
+			//TODO: uno queda vacio y como se repite lanza una excepcion
+		}
+	}
 	myfile.close();
 	return lista;
 

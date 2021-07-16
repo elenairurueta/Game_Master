@@ -11,7 +11,6 @@
 
 GameMaster::GameMaster() {
 	imprimirPantallaInicial();
-	system("pause");
 	this->archivoJugadores = new Archivo("registroJugadores");
 	this->registroJugadores = archivoJugadores->leerArchivoDat<cRegistro>(); //se levanta el archivo con los registros de los jugadores
 	this->listaJugadores = definirJugadores(); 
@@ -270,9 +269,10 @@ MENU GameMaster::menuTurno()
 cListaT<cJugador>* GameMaster::definirJugadores()
 {
 	int cantJugadores = 0;
-	do {
+	do { //TODO: bucle infinito si ingresa mal
 		cout << "\t<<De 2 a 6 Jugadores>> \n\tIngrese la cantidad de jugadores: "; //preguntamos la cantidad de jugadores
 		cin >> cantJugadores;
+
 	} while ((cantJugadores < 2) || (cantJugadores > 6));
 
 	cListaT<cJugador>* listaJugadores = new cListaT<cJugador>(cantJugadores);

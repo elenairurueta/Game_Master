@@ -1,5 +1,6 @@
 #pragma once
 #include "cMapa.h"
+#include "Defines.h"
 
 cMapa::cMapa(MAPA nombre, cListaT<cPais>* listaPaises):nombre(nombre) {
 
@@ -34,7 +35,9 @@ cMapa::~cMapa() {
 void cMapa::poblacionar()
 {
 	mapa = archivoMapa->leerArchivoTxt();
-	listaPaises = archivoListaPaises->leerArchivoDat<cPais>();
+	listaPaises = archivoListaPaises->leerArchivoDat<cPais>(cantLATINOAMERICA);
+	for(int i = 0; i < listaPaises->getCA(); i++)
+		(*listaPaises)[i]->inicializarEjercito();
 }
 
 

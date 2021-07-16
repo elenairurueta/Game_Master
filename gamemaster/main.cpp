@@ -15,7 +15,7 @@ using namespace std;
 
 int main()
 {
-	//llenarArchivoPaises(); //SOLO UNA VEZ
+	llenarArchivoPaises(); //SOLO UNA VEZ
 	GameMaster* Juego = NULL;
 	do {
 		try {

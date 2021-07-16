@@ -8,7 +8,7 @@ class cPais
 {
 
 public:
-	cPais(string nombre = "", string nombreEnMapa = "");
+	cPais(string nombre = "", string nombreEnMapa = "", cEjercito* ejercito = NULL);
 	~cPais();
 
 	//agrega tropas al ejercito, pregunta si las quiere combinar o agregar
@@ -37,6 +37,8 @@ public:
 	friend void llenarArchivoPaises();
 
 	string toString(string separador = "\n");
+
+	void inicializarEjercito();
 
 private:
 	JUGADORES control;

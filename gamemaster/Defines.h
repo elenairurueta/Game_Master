@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 #define rondasMAX 10
-#define cantLATINOAMERICA 11;
+#define cantLATINOAMERICA 11
 
 enum class JUGADORES
 {

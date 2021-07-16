@@ -3,16 +3,22 @@
 
 cListaT<cPais> cPais::listaPaises = cListaT<cPais>();
 
-cPais::cPais(string nombre, string nombreEnMapa) :nombre(nombre), nombreEnMapa(nombreEnMapa) { 
+cPais::cPais(string nombre, string nombreEnMapa, cEjercito* ejercito) :nombre(nombre), nombreEnMapa(nombreEnMapa) {
 
-	this->ejercito = new cEjercito();
+	if(ejercito == NULL)
+		ejercito = new cEjercito();
+	this->ejercito = ejercito;
 	this->control = JUGADORES::NINGUNO;
 	this->PaisesVecinos = new cListaT<cPais>();
+	cListaT<cPais>* ptr = &listaPaises;
+	ptr->AgregarItem(this);
 }
 
 cPais::~cPais() {
 	if (ejercito != NULL)
 		delete ejercito;
+	cListaT<cPais>* ptr = &listaPaises;
+	ptr->Quitar(this);
 }
 
 
@@ -172,6 +178,11 @@ int cPais::getCantidadTropas()
 string cPais::toString(string separador)
 {
 	return (nombre + to_string((int)control));
+}
+
+void cPais::inicializarEjercito()
+{
+	this->ejercito = new cEjercito();
 }
 
 ostream& operator<<(ostream& out, cPais* Pais)

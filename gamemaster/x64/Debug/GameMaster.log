@@ -1,51 +1,149 @@
-﻿  GameMaster.cpp
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\Archivo.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(35,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(43,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(91,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(106,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(114,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(129,21): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(144,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(174,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(211,17): warning C4018: '>=': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(311,21): warning C4101: 'ex': variable local sin referencia
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(397,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(417,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(59): message : al compilar la función del miembro clase plantilla "void cListaT<cUnidad>::Redimensionalizar(int)"
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(128): message : Vea la referencia a la creación de una instancia de la función plantilla "void cListaT<cUnidad>::Redimensionalizar(int)" que se está compilando
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(122): message : al compilar la función del miembro clase plantilla "bool cListaT<cUnidad>::AgregarItem(T *)"
-          with
-          [
-              T=cUnidad
-          ]
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(184): message : Vea la referencia a la creación de una instancia de la función plantilla "bool cListaT<cUnidad>::AgregarItem(T *)" que se está compilando
-          with
-          [
-              T=cUnidad
-          ]
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cTropa.h(9): message : Vea la referencia a la creación de una instancia de clase plantilla "cListaT<cUnidad>" que se está compilando
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': no coinciden signed/unsigned
+﻿  cArqueros.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cArqueros.cpp(33,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cArqueros.cpp(35,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  cCaballeros.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cCaballeros.cpp(32,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cCaballeros.cpp(34,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  cEjercito.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cEjercito.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cEjercito.cpp(52,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cEjercito.cpp(84,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(59): message : while compiling class template member function 'void cListaT<cTropa>::Redimensionalizar(int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(128): message : see reference to function template instantiation 'void cListaT<cTropa>::Redimensionalizar(int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(81): message : while compiling class template member function 'cListaT<cTropa>::cListaT(unsigned int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cEjercito.cpp(4): message : see reference to function template instantiation 'cListaT<cTropa>::cListaT(unsigned int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cEjercito.h(8): message : see reference to class template instantiation 'cListaT<cTropa>' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': signed/unsigned mismatch
+  cJugador.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(35,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(40,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(61,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(72,16): warning C4018: '>': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(77,26): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(86,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(99,20): warning C4101: 'ex': unreferenced local variable
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(117,20): warning C4101: 'ex': unreferenced local variable
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(163,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(176,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(59): message : while compiling class template member function 'void cListaT<cPais>::Redimensionalizar(int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(128): message : see reference to function template instantiation 'void cListaT<cPais>::Redimensionalizar(int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(81): message : while compiling class template member function 'cListaT<cPais>::cListaT(unsigned int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(17): message : see reference to function template instantiation 'cListaT<cPais>::cListaT(unsigned int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cJugador.cpp(17): message : see reference to class template instantiation 'cListaT<cPais>' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': signed/unsigned mismatch
+  cMagos.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMagos.cpp(33,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMagos.cpp(35,23): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
   cMapa.cpp
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\Archivo.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cMapa.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cMapa.cpp(45,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cMapa.cpp(64,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\Archivo.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMapa.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMapa.cpp(39,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMapa.cpp(48,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMapa.cpp(67,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(59): message : while compiling class template member function 'void cListaT<cPais>::Redimensionalizar(int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(128): message : see reference to function template instantiation 'void cListaT<cPais>::Redimensionalizar(int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(122): message : while compiling class template member function 'bool cListaT<cPais>::AgregarItem(T *)'
+          with
+          [
+              T=cPais
+          ]
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\Archivo.h(81): message : see reference to function template instantiation 'bool cListaT<cPais>::AgregarItem(T *)' being compiled
+          with
+          [
+              T=cPais
+          ]
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(81): message : while compiling class template member function 'cListaT<cPais>::cListaT(unsigned int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMapa.cpp(8): message : see reference to function template instantiation 'cListaT<cPais>::cListaT(unsigned int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cMapa.cpp(8): message : see reference to class template instantiation 'cListaT<cPais>' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': signed/unsigned mismatch
+  cPais.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cPais.cpp(97,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(59): message : while compiling class template member function 'void cListaT<cTropa>::Redimensionalizar(int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(128): message : see reference to function template instantiation 'void cListaT<cTropa>::Redimensionalizar(int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(122): message : while compiling class template member function 'bool cListaT<cTropa>::AgregarItem(T *)'
+          with
+          [
+              T=cTropa
+          ]
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cPais.cpp(123): message : see reference to function template instantiation 'bool cListaT<cTropa>::AgregarItem(T *)' being compiled
+          with
+          [
+              T=cTropa
+          ]
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cEjercito.h(8): message : see reference to class template instantiation 'cListaT<cTropa>' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': signed/unsigned mismatch
+  cTropa.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(25,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(64,25): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(67,25): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(77,25): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(82,25): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(92,25): warning C4244: '-=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(95,25): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(118,24): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(126,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(129,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(150,21): warning C4101: 'ex': unreferenced local variable
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(173,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(59): message : while compiling class template member function 'void cListaT<cUnidad>::Redimensionalizar(int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(128): message : see reference to function template instantiation 'void cListaT<cUnidad>::Redimensionalizar(int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(81): message : while compiling class template member function 'cListaT<cUnidad>::cListaT(unsigned int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.cpp(10): message : see reference to function template instantiation 'cListaT<cUnidad>::cListaT(unsigned int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.h(9): message : see reference to class template instantiation 'cListaT<cUnidad>' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': signed/unsigned mismatch
+  cUnidad.cpp
+  GameMaster.cpp
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\Archivo.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(34,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(42,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(90,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(105,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(113,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(128,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(143,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(173,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(210,17): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(311,21): warning C4101: 'ex': unreferenced local variable
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(397,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(417,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\Archivo.h(43,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(412): message : see reference to function template instantiation 'void Archivo::escribirArchivoDat<cRegistro>(cListaT<cRegistro> *)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(59): message : while compiling class template member function 'void cListaT<cUnidad>::Redimensionalizar(int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(128): message : see reference to function template instantiation 'void cListaT<cUnidad>::Redimensionalizar(int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(122): message : while compiling class template member function 'bool cListaT<cUnidad>::AgregarItem(T *)'
+          with
+          [
+              T=cUnidad
+          ]
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\GameMaster.cpp(183): message : see reference to function template instantiation 'bool cListaT<cUnidad>::AgregarItem(T *)' being compiled
+          with
+          [
+              T=cUnidad
+          ]
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cTropa.h(9): message : see reference to class template instantiation 'cListaT<cUnidad>' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': signed/unsigned mismatch
   llenarArchivos.cpp
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(59): message : al compilar la función del miembro clase plantilla "void cListaT<cPais>::Redimensionalizar(int)"
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(128): message : Vea la referencia a la creación de una instancia de la función plantilla "void cListaT<cPais>::Redimensionalizar(int)" que se está compilando
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(81): message : al compilar la función del miembro clase plantilla "cListaT<cPais>::cListaT(unsigned int)"
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp(10): message : Vea la referencia a la creación de una instancia de la función plantilla "cListaT<cPais>::cListaT(unsigned int)" que se está compilando
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp(10): message : Vea la referencia a la creación de una instancia de clase plantilla "cListaT<cPais>" que se está compilando
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\llenarArchivos.cpp(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\llenarArchivos.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\Archivo.h(43,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\llenarArchivos.cpp(67): message : see reference to function template instantiation 'void Archivo::escribirArchivoDat<cPais>(cListaT<cPais> *)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(59): message : while compiling class template member function 'void cListaT<cPais>::Redimensionalizar(int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(128): message : see reference to function template instantiation 'void cListaT<cPais>::Redimensionalizar(int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(81): message : while compiling class template member function 'cListaT<cPais>::cListaT(unsigned int)'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\llenarArchivos.cpp(10): message : see reference to function template instantiation 'cListaT<cPais>::cListaT(unsigned int)' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\llenarArchivos.cpp(10): message : see reference to class template instantiation 'cListaT<cPais>' being compiled
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': signed/unsigned mismatch
   main.cpp
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\main.cpp(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\main.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
-C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\main.cpp(25,21): warning C4101: 'ex': variable local sin referencia
-  Generando código...
-  GameMaster.vcxproj -> C:\Users\bianq\Source\Repos\elenairurueta\TPFinal-LP1\gamemaster\x64\Debug\GameMaster.exe
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\main.cpp(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\main.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\main.cpp(25,21): warning C4101: 'ex': unreferenced local variable
+  Generating Code...
+  GameMaster.vcxproj -> C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\x64\Debug\GameMaster.exe

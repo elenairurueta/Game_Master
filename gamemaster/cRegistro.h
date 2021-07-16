@@ -25,6 +25,9 @@ public:
 	string getclave() {
 		return usuario;
 	}
+	string toString(string separador) {
+		return(usuario + separador + contrasenia);
+	}
 };
 inline cRegistro::cRegistro(string usuario, string contrasenia):usuario(usuario), contrasenia(contrasenia)
 {
