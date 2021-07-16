@@ -10,6 +10,7 @@ cPais::cPais(string nombre, string nombreEnMapa, cEjercito* ejercito) :nombre(no
 	this->ejercito = ejercito;
 	this->control = JUGADORES::NINGUNO;
 	this->PaisesVecinos = new cListaT<cPais>();
+	
 	cListaT<cPais>* ptr = &listaPaises;
 	ptr->AgregarItem(this);
 }
@@ -107,7 +108,7 @@ JUGADORES cPais::getControl()
 	return control;
 }
 
-string cPais::getclave()
+string cPais::getclave()const
 {
 	return nombre;
 }

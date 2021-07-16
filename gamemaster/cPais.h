@@ -24,7 +24,7 @@ public:
 	//distribuye el daño entre las unidades de la tropa que se pasa por párametro
 	void recibirAtaque(cTropa* tropaAtacada, int dano);
 	JUGADORES getControl();
-	string getclave();
+	string getclave()const;
 	void pasarTropa(cPais* paisQuePasa);
 	string toStringTropasListadas();
 	cTropa* sacarTropa(int pos);

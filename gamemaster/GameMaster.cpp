@@ -7,7 +7,7 @@
 #include "cMagos.h"
 #include "Globals.h"
 #include "Archivo.h"
-
+using namespace std;
 
 GameMaster::GameMaster() {
 	imprimirPantallaInicial();
@@ -268,12 +268,22 @@ MENU GameMaster::menuTurno()
 }
 cListaT<cJugador>* GameMaster::definirJugadores()
 {
-	int cantJugadores = 0;
+	string cantJugadoresstr = " ";
+	bool valido = false;
 	do { //TODO: bucle infinito si ingresa mal
-		cout << "\t<<De 2 a 6 Jugadores>> \n\tIngrese la cantidad de jugadores: "; //preguntamos la cantidad de jugadores
-		cin >> cantJugadores;
-
-	} while ((cantJugadores < 2) || (cantJugadores > 6));
+		cout << "\t<<De 2 a 4 Jugadores>> \n\tIngrese la cantidad de jugadores: "; //preguntamos la cantidad de jugadores
+		cin >> cantJugadoresstr;
+		if ((cantJugadoresstr == "2") || (cantJugadoresstr == "3") || (cantJugadoresstr == "4"))
+			valido = true;		 
+	} while (!valido);
+	
+	int cantJugadores = 0;
+	if ((cantJugadoresstr.compare("2") == 0))
+		cantJugadores = 2;
+	if ((cantJugadoresstr.compare("3") == 0))
+		cantJugadores = 3;
+	if ((cantJugadoresstr.compare("4") == 0))
+		cantJugadores = 4;
 
 	cListaT<cJugador>* listaJugadores = new cListaT<cJugador>(cantJugadores);
 	cJugador* aux = NULL;
