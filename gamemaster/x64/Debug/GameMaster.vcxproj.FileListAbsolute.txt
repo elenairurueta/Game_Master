@@ -1,2 +1,3 @@
 C:\Users\elena\OneDrive\Documentos\GitHub\TP-Final\gamemaster\x64\Debug\GameMaster.exe
 C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\x64\Debug\GameMaster.exe
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\x64\Debug\GameMaster.exe

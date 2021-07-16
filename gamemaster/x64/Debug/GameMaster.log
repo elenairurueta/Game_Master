@@ -1,5 +1,51 @@
-﻿  main.cpp
-C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\main.cpp(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
-C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\main.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
-C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\main.cpp(25,21): warning C4101: 'ex': unreferenced local variable
-  GameMaster.vcxproj -> C:\Users\elena\OneDrive\Documentos\GitHub\TPFinal-LP1\gamemaster\x64\Debug\GameMaster.exe
+﻿  GameMaster.cpp
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\Archivo.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(35,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(43,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(91,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(106,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(114,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(129,21): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(144,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(174,12): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(211,17): warning C4018: '>=': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(311,21): warning C4101: 'ex': variable local sin referencia
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(397,22): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(417,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(59): message : al compilar la función del miembro clase plantilla "void cListaT<cUnidad>::Redimensionalizar(int)"
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(128): message : Vea la referencia a la creación de una instancia de la función plantilla "void cListaT<cUnidad>::Redimensionalizar(int)" que se está compilando
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(122): message : al compilar la función del miembro clase plantilla "bool cListaT<cUnidad>::AgregarItem(T *)"
+          with
+          [
+              T=cUnidad
+          ]
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\GameMaster.cpp(184): message : Vea la referencia a la creación de una instancia de la función plantilla "bool cListaT<cUnidad>::AgregarItem(T *)" que se está compilando
+          with
+          [
+              T=cUnidad
+          ]
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cTropa.h(9): message : Vea la referencia a la creación de una instancia de clase plantilla "cListaT<cUnidad>" que se está compilando
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': no coinciden signed/unsigned
+  cMapa.cpp
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\Archivo.h(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cMapa.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cMapa.cpp(45,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cMapa.cpp(64,20): warning C4018: '<': no coinciden signed/unsigned
+  llenarArchivos.cpp
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(63,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(59): message : al compilar la función del miembro clase plantilla "void cListaT<cPais>::Redimensionalizar(int)"
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(128): message : Vea la referencia a la creación de una instancia de la función plantilla "void cListaT<cPais>::Redimensionalizar(int)" que se está compilando
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(81): message : al compilar la función del miembro clase plantilla "cListaT<cPais>::cListaT(unsigned int)"
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp(10): message : Vea la referencia a la creación de una instancia de la función plantilla "cListaT<cPais>::cListaT(unsigned int)" que se está compilando
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\llenarArchivos.cpp(10): message : Vea la referencia a la creación de una instancia de clase plantilla "cListaT<cPais>" que se está compilando
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\cListaT.h(65,9): warning C4018: '<': no coinciden signed/unsigned
+  main.cpp
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\main.cpp(2,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': redefinición de macro
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\main.cpp : message : vea la definición anterior de '_CRT_SECURE_NO_WARNINGS'
+C:\Users\bianq\source\repos\elenairurueta\TPFinal-LP1\gamemaster\main.cpp(25,21): warning C4101: 'ex': variable local sin referencia
+  Generando código...
+  GameMaster.vcxproj -> C:\Users\bianq\Source\Repos\elenairurueta\TPFinal-LP1\gamemaster\x64\Debug\GameMaster.exe

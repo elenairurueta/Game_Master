@@ -20,7 +20,7 @@ int main()
 	do {
 		try {
 			Juego = new GameMaster();
-			Juego->imprimirMapa();
+			//Juego->imprimirMapa();
 		}
 		catch (exception* ex) {
 			break;
@@ -30,6 +30,7 @@ int main()
 		try
 		{
 			Juego->Inicio();
+			Juego->imprimirMapa();
 		}
 		catch (exception* ex)
 		{
