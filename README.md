@@ -1,5 +1,5 @@
 # Game Master
-Trabajo Final de la Asignatura Laboratorio de Porgramación 1
+Trabajo Final de la Asignatura Laboratorio de Programación 1
 
 Integrantes:
 - Irurueta, Elena
